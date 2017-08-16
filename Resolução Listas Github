@@ -1,0 +1,8 @@
+Resolução das Listas 1 e 2 de exercícios sobre o GitHub
+
+1 - O comando git --version pode ser usado para a versão do GitHub.
+
+2 -
+  a - git config -l - Lista todas as variáveis setadas no arquivo de configuração.
+  b - git mv a.txt b.txt - Renomeia o arquivo a.txt para b.txt.
+  c - 
