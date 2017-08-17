@@ -14,7 +14,7 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
  
 3 - Os comandos 'git add' e 'gt commit' podem ser usados respectivamente para realizar as ações pedidas.
 
-4 - O comando 'git diff commit1 commit2' pode ser usado para saber as diferenças entre um commit 1 e um commit 2.
+4 - O comando 'git show <commit>' pode ser usado para saber o que foi alterado desde o último commit.
 
 5 - O comando 'git ls-files --others' nessa ocasião.
 
@@ -29,3 +29,15 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 10 - Através do comando 'git clone my_url' é possível realizar uma clonagem de um repositário presente na URL especificada.
 
 11 - O comando 'git log --pretty' pode ser usado para colocar os conteúdos do histórico no formato de 'oneline', ou seja, com a extensão de uma linha pra cada mudança.
+
+12 - Através do comando 'git config --global' é possível definir as configurações do Git para o usuário.(?)
+
+13 - Através do comando 'git init [project name]', onde 'prject name' seria o nome do repositório, é possível criar um novo repositório local.
+
+14 - O nome do diretório criado após o uso do comando 'git init' é 'master'.
+
+15 - O comando 'git add -u'.
+
+16 - SHA-1 é uma função de dispersão criptográfica (ou função hash criptográfica) projetada pela Agência de Segurança Nacional dos Estados Unidos e é um Padrão de Processamento de Informação Federal dos Estados Unidos publicado pelo Instituto Nacional de Padrões e Tecnologia (NIST). A sigla SHA significa "algoritmo de dispersão seguro" (secure hash algorithm em inglês). SHA-1 é a mais amplamente utilizada das funções de dispersão SHA existentes, sendo empregada em vários protocolos e aplicações amplamente utilizadas.
+
+17 - Se os arquivos são 'untracked', eles são ignorados pelo comando 'git add -u'.
