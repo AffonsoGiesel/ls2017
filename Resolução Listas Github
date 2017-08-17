@@ -3,6 +3,29 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 1 - O comando git --version pode ser usado para a versão do GitHub.
 
 2 -
-  a - git config -l - Lista todas as variáveis setadas no arquivo de configuração.
+  a - git config -l - Lista todas as variáveis colocadas no arquivo de configuração.
   b - git mv a.txt b.txt - Renomeia o arquivo a.txt para b.txt.
-  c - 
+  c - git reset --hard - Reseta o index e a árvore funcional. Quaisquer mudanças em arquivos rastreados na árvore funcional desde <commit> são descartadas.
+  d - git log -27 - Mostra os logs dos commits até o de número 27.
+  e - git help - Mostra informações utéis sobre o Git.
+  f - git help reset - Mostra informações utéis sobre o comando 'reset'.
+  g - git add --all - Atualiza o index não apenas onde a árvore funcional tem um arquivo correspondente à <pathspec> mas também onde o index já tem uma entrada.
+  h - git add -u - Atualiza o index apenas onde esse já possui uma entrada que corresponde à <pathspec>.
+ 
+3 - Os comandos 'git add' e 'gt commit' podem ser usados respectivamente para realizar as ações pedidas.
+
+4 - O comando 'git diff commit1 commit2' pode ser usado para saber as diferenças entre um commit 1 e um commit 2.
+
+5 - O comando 'git ls-files --others' nessa ocasião.
+
+6 - O comando 'git commit'.
+
+7 - O comando 'git reset <commit-ish>' pode ser usado para descartar tais mudanças no arquivo.
+
+8 - Basta criar um arquivo .gitignore e nele especificar o(s) diretório(s) que deverá ser ignorado na busca.
+
+9 - É necessário realizar uma clonagem do repositório previamente através do repositório central do Git.
+
+10 - Através do comando 'git clone my_url' é possível realizar uma clonagem de um repositário presente na URL especificada.
+
+11 - O comando 'git log --pretty' pode ser usado para colocar os conteúdos do histórico no formato de 'oneline', ou seja, com a extensão de uma linha pra cada mudança.
