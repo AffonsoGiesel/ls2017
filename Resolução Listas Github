@@ -40,4 +40,39 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 
 16 - SHA-1 é uma função de dispersão criptográfica (ou função hash criptográfica) projetada pela Agência de Segurança Nacional dos Estados Unidos e é um Padrão de Processamento de Informação Federal dos Estados Unidos publicado pelo Instituto Nacional de Padrões e Tecnologia (NIST). A sigla SHA significa "algoritmo de dispersão seguro" (secure hash algorithm em inglês). SHA-1 é a mais amplamente utilizada das funções de dispersão SHA existentes, sendo empregada em vários protocolos e aplicações amplamente utilizadas.
 
-17 - Se os arquivos são 'untracked', eles são ignorados pelo comando 'git add -u'.
+17 - Apenas git show exibe diferenças introduzidas no repositório pelo último commit. git show <commit> é usado para indicar as mudanças efetuadas pelo commit em questão (em geral os 6 primeiros dígitos do SHA1 são suficientes).
+
+18 - Se os arquivos são 'untracked', eles são ignorados pelo comando 'git add -u'.
+
+19 - Quando se usa 'git reset --soft HEAD~1' o último commit será desfeito, mas as mudanças realizadas no arquivo permanecerão na árvore funcional. Já quando se usa o 'git reset --hard' serão perdidas as as mudanças introduzidas desde o último commit e as mudanças não ficarão na árvore funcional.
+
+20 - Através do comando 'git clean -df' é possível realizar tal operação.
+
+21 - O nome do arquivo é '.gitignore'.
+
+22 - É possível definir certas 'regras' no arquivo '.gitignore' para que este ignore certos tipos de arquivos, nesse caso arquivos '.class'.
+
+23 - Repositório clonado.
+
+24 - Esse comando apresenta o histórico do repositório, mas de forma enxuta, sem o resumo, em ordem decrescente de commits e com o email de quem os realizou.
+
+25 - 'git remove -v' mostra o nome e a URL do repositório jqueryrepo.
+
+26 - Através do comando 'git tag', é possível listar todas as etiquetas do repositório.
+
+27 -  Através do comando 'git tag <nome>', onde nome seria o nome de uma versão por exemplo 2.0, é possível listar certas etiquetas do repositório.
+
+28 - Será criada uma annotated tag não assinada '3.4-gold' com a mensagem 'minha versão ouro'.
+
+29 - Será exibida a tag previamente criada com seu conteúdo.
+
+30 - O push da tag 3.4-gold e seu conteúdo será realizado.
+
+31 - Através desse comando é possível modificar o último commit realizado.
+
+32 - Ao executar o comando 'git reset HEAD x.txt' o commit anterior do arquivo 'x.txt' será 'removido', e as mudanças permaneceram na árvore funcional mas não no index.
+
+33 - Através desse comando é possível se obter a versão HEAD do arquivo no repositório em questão.
+
+34 - O primeiro comando retorna a cópia de trabalho para o conteúdo do repositório (HEAD). Afeta todo o conteúdo do repositório. Arquivos criados e não adicionados não são removidos. Já o segundo comando obtém a versão HEAD do arquivo no repositório em questão. Deve ser usado quando a alteração no arquivo for equivocada e se deseja revertê-la.
+
