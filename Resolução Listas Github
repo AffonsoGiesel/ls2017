@@ -76,3 +76,33 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 
 34 - O primeiro comando retorna a cópia de trabalho para o conteúdo do repositório (HEAD). Afeta todo o conteúdo do repositório. Arquivos criados e não adicionados não são removidos. Já o segundo comando obtém a versão HEAD do arquivo no repositório em questão. Deve ser usado quando a alteração no arquivo for equivocada e se deseja revertê-la.
 
+Lista de Exercícios 2
+
+1 - Tarefas concluídas
+
+2 - Como por padrão, git não faz push de tags, podemos usar o comando 'git push --tags' para fazê-lo.
+
+3 - O branch padrão do git é o 'master'.
+
+4 - Cria branch com o nome fornecido em 'branchname'.
+
+5 - Através do comando 'git branch <nome> <commit>' é possível criar branch com o nome fornecido a partir do commit indicado (ou tag).
+
+6 - Será criado um branch com o nome 'erro1234'.
+
+7 - Através do comando 'git checkout <nome>' onde nome é o nome do branch para o qual se deseja alterar.
+
+8 - O comando exibirá os branches disponíveis no repositório, no caso 'b1' e 'b2'.
+
+9 - O comando irá criar um novo branch 'novobranch' e irá alterar para ele.
+
+10 - O comando irá remover o branch indicado, no caso o branch 'teste'.
+
+11 - Branch <1> é criado
+     Branch <2> é criado
+ 
+Br
+
+
+
+
