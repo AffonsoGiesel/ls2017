@@ -5,11 +5,13 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 2 -
   a - git config -l - Lista todas as variáveis colocadas no arquivo de configuração.
   b - git mv a.txt b.txt - Renomeia o arquivo a.txt para b.txt.
-  c - git reset --hard - Reseta o index e a árvore funcional. Quaisquer mudanças em arquivos rastreados na árvore funcional desde <commit> são descartadas.
+  c - git reset --hard - Reseta o index e a árvore funcional. Quaisquer mudanças em arquivos rastreados na 
+      árvore funcional desde <commit> são descartadas.
   d - git log -27 - Mostra os logs dos commits até o de número 27.
   e - git help - Mostra informações utéis sobre o Git.
   f - git help reset - Mostra informações utéis sobre o comando 'reset'.
-  g - git add --all - Atualiza o index não apenas onde a árvore funcional tem um arquivo correspondente à <pathspec> mas também onde o index já tem uma entrada.
+  g - git add --all - Atualiza o index não apenas onde a árvore funcional tem um arquivo correspondente à 
+      <pathspec> mas também onde o index já tem uma entrada.
   h - git add -u - Atualiza o index apenas onde esse já possui uma entrada que corresponde à <pathspec>.
  
 3 - Os comandos 'git add' e 'gt commit' podem ser usados respectivamente para realizar as ações pedidas.
@@ -28,39 +30,51 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 
 10 - Através do comando 'git clone my_url' é possível realizar uma clonagem de um repositário presente na URL especificada.
 
-11 - O comando 'git log --pretty' pode ser usado para colocar os conteúdos do histórico no formato de 'oneline', ou seja, com a extensão de uma linha pra cada mudança.
+11 - O comando 'git log --pretty' pode ser usado para colocar os conteúdos do histórico no formato de 'oneline', ou seja,
+     com a extensão de uma linha pra cada mudança.
 
 12 - Através do comando 'git config --global' é possível definir as configurações do Git para o usuário.(?)
 
-13 - Através do comando 'git init [project name]', onde 'prject name' seria o nome do repositório, é possível criar um novo repositório local.
+13 - Através do comando 'git init [project name]', onde 'prject name' seria o nome do repositório, é possível criar um novo
+     repositório local.
 
 14 - O nome do diretório criado após o uso do comando 'git init' é 'master'.
 
 15 - O comando 'git add -u'.
 
-16 - SHA-1 é uma função de dispersão criptográfica (ou função hash criptográfica) projetada pela Agência de Segurança Nacional dos Estados Unidos e é um Padrão de Processamento de Informação Federal dos Estados Unidos publicado pelo Instituto Nacional de Padrões e Tecnologia (NIST). A sigla SHA significa "algoritmo de dispersão seguro" (secure hash algorithm em inglês). SHA-1 é a mais amplamente utilizada das funções de dispersão SHA existentes, sendo empregada em vários protocolos e aplicações amplamente utilizadas.
+16 - SHA-1 é uma função de dispersão criptográfica (ou função hash criptográfica) projetada pela Agência de Segurança Nacional dos
+     Estados Unidos e é um Padrão de Processamento de Informação Federal dos Estados Unidos publicado pelo Instituto Nacional de 
+     Padrões e Tecnologia (NIST). A sigla SHA significa "algoritmo de dispersão seguro" (secure hash algorithm em inglês). SHA-1 é
+     a mais amplamente utilizada das funções de dispersão SHA existentes, sendo empregada em vários protocolos e aplicações amplamente
+     utilizadas.
 
-17 - Apenas git show exibe diferenças introduzidas no repositório pelo último commit. git show <commit> é usado para indicar as mudanças efetuadas pelo commit em questão (em geral os 6 primeiros dígitos do SHA1 são suficientes).
+17 - Apenas git show exibe diferenças introduzidas no repositório pelo último commit. git show <commit> é usado para indicar as mudanças
+     efetuadas pelo commit em questão (em geral os 6 primeiros dígitos do SHA1 são suficientes).
 
 18 - Se os arquivos são 'untracked', eles são ignorados pelo comando 'git add -u'.
 
-19 - Quando se usa 'git reset --soft HEAD~1' o último commit será desfeito, mas as mudanças realizadas no arquivo permanecerão na árvore funcional. Já quando se usa o 'git reset --hard' serão perdidas as as mudanças introduzidas desde o último commit e as mudanças não ficarão na árvore funcional.
+19 - Quando se usa 'git reset --soft HEAD~1' o último commit será desfeito, mas as mudanças realizadas no arquivo permanecerão na árvore
+     funcional. Já quando se usa o 'git reset --hard' serão perdidas as as mudanças introduzidas desde o último commit e as mudanças não ficarão
+     na árvore funcional.
 
 20 - Através do comando 'git clean -df' é possível realizar tal operação.
 
 21 - O nome do arquivo é '.gitignore'.
 
-22 - É possível definir certas 'regras' no arquivo '.gitignore' para que este ignore certos tipos de arquivos, nesse caso arquivos '.class'.
+22 - É possível definir certas 'regras' no arquivo '.gitignore' para que este ignore certos tipos de arquivos, nesse caso arquivos 
+     '.class'.
 
 23 - Repositório clonado.
 
-24 - Esse comando apresenta o histórico do repositório, mas de forma enxuta, sem o resumo, em ordem decrescente de commits e com o email de quem os realizou.
+24 - Esse comando apresenta o histórico do repositório, mas de forma enxuta, sem o resumo, em ordem decrescente de commits e com o email
+     de quem os realizou.
 
 25 - 'git remove -v' mostra o nome e a URL do repositório jqueryrepo.
 
 26 - Através do comando 'git tag', é possível listar todas as etiquetas do repositório.
 
-27 -  Através do comando 'git tag <nome>', onde nome seria o nome de uma versão por exemplo 2.0, é possível listar certas etiquetas do repositório.
+27 -  Através do comando 'git tag <nome>', onde nome seria o nome de uma versão por exemplo 2.0, é possível listar certas etiquetas do
+      repositório.
 
 28 - Será criada uma annotated tag não assinada '3.4-gold' com a mensagem 'minha versão ouro'.
 
@@ -70,11 +84,14 @@ Resolução das Listas 1 e 2 de exercícios sobre o GitHub
 
 31 - Através desse comando é possível modificar o último commit realizado.
 
-32 - Ao executar o comando 'git reset HEAD x.txt' o commit anterior do arquivo 'x.txt' será 'removido', e as mudanças permaneceram na árvore funcional mas não no index.
+32 - Ao executar o comando 'git reset HEAD x.txt' o commit anterior do arquivo 'x.txt' será 'removido', e as mudanças permaneceram
+     na árvore funcional mas não no index.
 
 33 - Através desse comando é possível se obter a versão HEAD do arquivo no repositório em questão.
 
-34 - O primeiro comando retorna a cópia de trabalho para o conteúdo do repositório (HEAD). Afeta todo o conteúdo do repositório. Arquivos criados e não adicionados não são removidos. Já o segundo comando obtém a versão HEAD do arquivo no repositório em questão. Deve ser usado quando a alteração no arquivo for equivocada e se deseja revertê-la.
+34 - O primeiro comando retorna a cópia de trabalho para o conteúdo do repositório (HEAD). Afeta todo o conteúdo do repositório.
+     Arquivos criados e não adicionados não são removidos. Já o segundo comando obtém a versão HEAD do arquivo no repositório em questão.
+     Deve ser usado quando a alteração no arquivo for equivocada e se deseja revertê-la.
 
 Lista de Exercícios 2
 
