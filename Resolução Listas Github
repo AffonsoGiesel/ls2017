@@ -116,9 +116,20 @@ Lista de Exercícios 2
 10 - O comando irá remover o branch indicado, no caso o branch 'teste'.
 
 11 - Branch <1> é criado
-     Branch <2> é criado
+     Arquivo <1> é criado
+     Arquivo <1> é alterado
+     Arquivo <1> é commitado
+   
+     Branch <2> é criado  
+     Arquivo <2> é criado
+     Arquivo <2> é alterado
+     Arquivo <2> é commitado
+     
+     Branch <1> e Branch <2> sofrem merge
+     Branch <1> e Branch Master sofrem merge
+     
+     
  
-Br
 
 
 
