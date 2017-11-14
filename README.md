@@ -11,7 +11,7 @@ Trabalho Individual de Leitura de Software
 | 6  |1  |  https://github.com/AffonsoGiesel/ls2017/wiki/Aula-6-06-09 |   |
 | 7  |1  |  https://github.com/AffonsoGiesel/ls2017/wiki/Aula-7-13-9 |   |
 | 8  |1  | https://github.com/AffonsoGiesel/ls2017/wiki/tecnologiasThoughtworks  |   |
-| 9  |0   |   |   |
+| 9  |0   | https://github.com/AffonsoGiesel/ls2017/wiki/Aula-9-27-09-2017  |  A tarefa foi realizada com atraso  |
 | 10  |0   |   |   |
 | 11  |0   | https://github.com/AffonsoGiesel/ls2017/wiki/arquitetura   | A tarefa foi realizada com atraso  |
 | 12  |1   | https://github.com/AffonsoGiesel/ls2017/wiki/visualvm  |   |
